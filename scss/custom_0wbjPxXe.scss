@@ -1,0 +1,191 @@
+/* 
+Compile this file to css/custom_0wbjPxXe.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+
+@import "variables.scss";
+/* Background && Buttons Colors: */
+
+/* Text Colors: */
+
+
+/* Casi studio (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-5757d34b"] */
+.slide[data-cid="slide-46-5757d34b"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* News & Events (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-27001805"] */
+.slide[data-cid="slide-46-27001805"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* AI (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-71-8654d078"] */
+.slide[data-cid="slide-71-8654d078"]{
+  .flex-71 {
+    padding-top: 15px;
+    .material-icons {
+      margin-bottom: 15px;
+      margin-top: 10px;
+      font-size: 36px;
+    }
+    >li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    .cell-71 {
+      padding: 20px 30px;
+      position: relative;
+      display: block;
+      transition: 0.25s;
+      &.rounded {
+        border-radius: $rounded-border-radius;
+      }
+      &:hover {
+        background: #fff;
+        color: $default-text-color;
+        opacity: 1;
+        box-shadow: $large-shadow;
+        border-color: transparent !important;
+      }
+    }
+    &:not(:hover) li:first-child > .cell-71 {
+      background: #fff;
+      color: $default-text-color;
+      opacity: 1;
+      box-shadow: $large-shadow;
+      border-color: transparent !important;
+    }
+  }
+}
+
+/* EAI (#6) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-67-2c3e29fd"] */
+.slide[data-cid="slide-67-2c3e29fd"]{
+  .box-67 {
+    color: $default-text-color;
+    border-radius: $rounded-border-radius;
+    overflow: hidden;
+    box-shadow: $small-shadow;
+    display: block;
+    outline: none;
+    margin-bottom: 35px;
+    -webkit-backface-visibility: hidden;
+    .thumbnail-67 {
+      font-size: 0;
+      overflow: hidden;
+      img {
+        border-radius: $rounded-border-radius $rounded-border-radius 0 0;
+        backface-visibility: hidden;
+        transition: 0.35s;
+      }
+    }
+    &:hover {
+      box-shadow: $large-shadow;
+      opacity: 0.95;
+      .thumbnail-67 img {
+        transform: scale(1.0225);
+      }
+    }
+    .name-67 {
+      padding: 19px 15px 25px;
+      background: #FFFFFF;
+    }
+  }
+}
+
+/* Risorse e Strumenti (#7) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-172-d1120fef"] */
+.slide[data-cid="slide-172-d1120fef"]{
+  .btn-172{
+    line-height: 80px;
+    width: 80px;
+    @include media($tablet, max) {
+      line-height: 60px;
+      width: 60px;
+    }
+  }
+  .line-172{
+    height:calc(100% - 120px);
+    width:1px;
+    background: rgba($default-white-color, .3);
+  }
+  &.whiteSlide .line-172{
+    background:rgba($default-text-color, .1);
+  }
+}
+
+/* Metodologici (#8) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-118-0882a5fa"] */
+.slide[data-cid="slide-118-0882a5fa"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+}
+
+/* Etico-Legali (#9) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-118-e4900d65"] */
+.slide[data-cid="slide-118-e4900d65"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+}

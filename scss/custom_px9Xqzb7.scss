@@ -1,0 +1,38 @@
+/* 
+Compile this file to css/custom_px9Xqzb7.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+
+@import "variables.scss";
+/* Background && Buttons Colors: */
+
+/* Text Colors: */
+
+
+/* Slide 103 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-103-83a51723"] */
+.slide[data-cid="slide-103-83a51723"]{
+  .social-103:hover{
+    opacity: 1 !important;
+  }
+}
+
+/* Slide 103 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-103-78c2bb6d"] */
+.slide[data-cid="slide-103-78c2bb6d"]{
+  .social-103:hover{
+    opacity: 1 !important;
+  }
+}
+
+/* Slide 49 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-49-47dd9a6a"] */
+.slide[data-cid="slide-49-47dd9a6a"]{
+  .flex-49 .material-icons {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+}

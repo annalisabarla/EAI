@@ -1,0 +1,100 @@
+/* Background && Buttons Colors: */
+/* Text Colors: */
+/* Slide 65 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-e04962d1"] */
+.slide[data-cid=slide-65-e04962d1] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-e04962d1] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-e04962d1] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-e04962d1] .flex-65 .material-icons {
+    left: 0px;
+  }
+}
+
+/* Slide 65 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-e8fd57e4"] */
+.slide[data-cid=slide-65-e8fd57e4] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-e8fd57e4] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-e8fd57e4] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-e8fd57e4] .flex-65 .material-icons {
+    left: 0px;
+  }
+}
+
+/* Slide 65 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-90ac5771"] */
+.slide[data-cid=slide-65-90ac5771] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-90ac5771] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-90ac5771] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-90ac5771] .flex-65 .material-icons {
+    left: 0px;
+  }
+}
+
+/* Slide 115 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-115-8ca7c7a8"] */
+.slide[data-cid=slide-115-8ca7c7a8] .swiper-115 .swiper-button-next, .slide[data-cid=slide-115-8ca7c7a8] .swiper-115 .swiper-button-prev {
+  height: 30px;
+  width: 30px;
+  margin-top: 0;
+  top: 156px;
+}
+.slide[data-cid=slide-115-8ca7c7a8] .swiper-115 .swiper-button-prev {
+  left: -80px;
+}
+.slide[data-cid=slide-115-8ca7c7a8] .swiper-115 .swiper-button-next {
+  right: -80px;
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-115-8ca7c7a8] .swiper-115 .swiper-button-prev {
+    left: calc(50% - 60px);
+    bottom: -60px;
+    top: auto;
+  }
+  .slide[data-cid=slide-115-8ca7c7a8] .swiper-115 .swiper-button-next {
+    right: calc(50% - 60px);
+    bottom: -60px;
+    top: auto;
+  }
+}
+
+/* Slide 160 (#6) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-160-b79aef56"] */
+.slide[data-cid=slide-160-b79aef56] .btn-160 {
+  min-width: 142px;
+}

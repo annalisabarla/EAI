@@ -1,0 +1,50 @@
+/* 
+Compile this file to css/custom_uN9qy16S.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+
+@import "variables.scss";
+/* Background && Buttons Colors: */
+
+/* Text Colors: */
+
+
+/* Slide 49 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-49-af814b6a"] */
+.slide[data-cid="slide-49-af814b6a"]{
+  .flex-49 .material-icons {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+}
+
+/* Slide 49 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-49-b9e893a5"] */
+.slide[data-cid="slide-49-b9e893a5"]{
+  .flex-49 .material-icons {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+}
+
+/* Slide 49 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-49-eb7175b3"] */
+.slide[data-cid="slide-49-eb7175b3"]{
+  .flex-49 .material-icons {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+}
+
+/* Slide 160 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-160-33e43c8e"] */
+.slide[data-cid="slide-160-33e43c8e"]{
+  .btn-160{
+    min-width:142px;
+  }
+}
