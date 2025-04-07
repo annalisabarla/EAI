@@ -9,3 +9,12 @@
     background: #0a0a28 !important;
     color: #ffffff !important;
   }
+
+  ul.flex.later.equal.left li.box-46 img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
