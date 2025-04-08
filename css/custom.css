@@ -18,3 +18,74 @@
     display: block;
   }
   
+
+  .accordion-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .accordion-header {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-header:hover {
+    background-color: #eee;
+  }
+  
+  .accordion-header h3 {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .accordion-icon {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .accordion-content {
+    padding: 0 15px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .accordion-content.open {
+    max-height: 500px; /* Adjust as needed */
+    padding: 15px;
+  }
+  
+  .accordion-content p.small {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-content ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-content ul li {
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
